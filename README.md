@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Ruby version
+2.7.8
 
-Things you may want to cover:
+## System dependencies
+- Ruby on Rails
+- SQLite3
 
-* Ruby version
+## Database creation
+`$ bin/rails db:create`
 
-* System dependencies
+## Database migration
+`$ bin/rails db:migrate`
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Run server
+`$ bin/rails s`
